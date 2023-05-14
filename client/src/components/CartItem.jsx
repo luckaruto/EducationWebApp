@@ -12,7 +12,7 @@ const CartItem = (props) => {
       setCourseImgs(newImage);
     };
     loadImage();
-  }, []);
+  }, [props]);
 
   const VND = new Intl.NumberFormat("vi-VN", {
     style: "currency",

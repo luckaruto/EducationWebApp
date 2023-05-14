@@ -38,7 +38,7 @@ const SuccessfulPage = () => {
                     }}
                     className="font-medium text-center text-indigo_400 text-sm w-auto"
                   >
-                    Back to Sign in
+                    Back to Home
                   </Text>
                 </div>
               </div>

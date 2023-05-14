@@ -124,8 +124,12 @@ const TeacherCoursesPage = () => {
       });
       console.log(data);
       setCourseList(() =>
-        data.filter((course) =>
-          e.target.value.includes(course.CATEGORY.substring(5, 8))
+        data.filter(
+          (course) =>
+            parseFloat(course.CATEGORY.substring(5, 8)) >=
+              parseFloat(e.target.value.substring(0, 3)) &&
+            parseFloat(course.CATEGORY.substring(5, 8)) <=
+              parseFloat(e.target.value.substring(4, 7))
         )
       );
     }
@@ -284,13 +288,13 @@ const TeacherCoursesPage = () => {
                 6.0-7.0
               </Button>
               <Button
-                value="8.0"
+                value="8.0-9.0"
                 onClick={CourseHandle}
                 className={`bg-white_A700 cursor-pointer font-medium min-w-[148px] sm:px-[20px] px-[30px] py-[20px] rounded-[10px] text-[16px] text-center text-gray_900 w-[auto] ${
-                  "8.0" === valueButton ? "choose" : ""
+                  "8.0-9.0" === valueButton ? "choose" : ""
                 }`}
               >
-                8.0
+                8.0-9.0
               </Button>
             </div>
           </div>
