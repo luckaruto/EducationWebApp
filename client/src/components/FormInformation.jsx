@@ -135,10 +135,17 @@ const ModalOverlay = (props) => {
             required
           >
             <option selected>Choose band of IELTS</option>
+            <option value="BAND 2.0">BAND 2.0</option>
+            <option value="BAND 3.0">BAND 3.0</option>
+            <option value="BAND 4.0">BAND 4.0</option>
             <option value="BAND 5.0">BAND 5.0</option>
+            <option value="BAND 5.5">BAND 5.5</option>
             <option value="BAND 6.0">BAND 6.0</option>
+            <option value="BAND 6.5">BAND 6.5</option>
             <option value="BAND 7.0">BAND 7.0</option>
+            <option value="BAND 7.5">BAND 7.0</option>
             <option value="BAND 8.0">BAND 8.0</option>
+            <option value="BAND 8.5">BAND 8.5</option>
           </select>
         </div>
         <footer className="actionsTeacher">
