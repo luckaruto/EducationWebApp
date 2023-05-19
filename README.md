@@ -8,6 +8,13 @@
 
 1. Front-end :smile:: **REACT**, **TailwindCSS**, **MaterialUI**
 2.  Back-end :smile:: **NodeJs (Express)**
+
+
+## Installation:
+To run my code, navigate into a specific code snapshot folder via the cd command in your command prompt or terminal first.
+Then run npm install to install all required dependencies (this will create a /node_modules folder)
+after run npm start to start sever and npm run dev to start client.
+
    
 ## Role: 
 1. Student
